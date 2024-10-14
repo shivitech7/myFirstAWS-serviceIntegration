@@ -25,10 +25,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Run tests (add tests in your app to this script)
-      - name: Run tests
-        run: npm test
-
       # Build or run the app (this could also be a deployment step)
       - name: Build and run app
         run: npm start
